@@ -1,15 +1,32 @@
 # 🏭 FactoryFlow
 ### Order-to-Audit Management System for Food Manufacturers
 
-FactoryFlow is a web-based management system developed using Python and Streamlit to streamline business operations in food manufacturing companies.
+[![Open Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://factoryflow-order-to-audit-system-begvsue7dgrvflbzv6erpl.streamlit.app/)
 
-The application integrates inventory management, purchasing, production planning, sales order processing, GST invoicing, dispatch management, payment tracking, product costing and audit reporting into a centralized platform.
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red.svg)](https://streamlit.io/)
+[![Database](https://img.shields.io/badge/Database-SQLite-blue.svg)](https://www.sqlite.org/)
+[![Status](https://img.shields.io/badge/Project-Educational%20Prototype-green.svg)]()
 
-The goal of FactoryFlow is to improve operational visibility, maintain accurate inventory records, simplify financial tracking and support better business decision-making.
+---
+
+## 🌐 Live Demo
+
+🚀 **Experience FactoryFlow online:**
+
+[**Click Here to Open FactoryFlow Website**](https://factoryflow-order-to-audit-system-begvsue7dgrvflbzv6erpl.streamlit.app/)
+
+**GitHub Repository:**
+
+https://github.com/nithyasri11-dev/FactoryFlow-Order-to-Audit-System
 
 ---
 
 ## 📌 Project Overview
+
+FactoryFlow is a web-based Order-to-Audit Management System developed using Python and Streamlit to streamline business operations in food manufacturing companies.
+
+The application integrates inventory management, purchasing, production planning, sales order processing, GST invoicing, dispatch management, payment tracking, product costing and audit reporting into a centralized platform.
 
 Food manufacturing businesses handle multiple interconnected operations, from purchasing raw materials to manufacturing finished products and delivering them to customers.
 
@@ -17,7 +34,7 @@ Managing these activities separately can lead to inventory discrepancies, delaye
 
 FactoryFlow provides a centralized application to manage the complete order-to-audit workflow.
 
-### Key Objectives
+### 🎯 Project Objectives
 
 - Centralize manufacturing and business operations.
 - Maintain accurate inventory and stock movement records.
@@ -31,30 +48,72 @@ FactoryFlow provides a centralized application to manage the complete order-to-a
 
 ---
 
+## 📸 Application Screenshots
+
+The following screenshots demonstrate the different modules of FactoryFlow.
+
+### 1. Login Page
+
+![FactoryFlow Login](screenshots/login.png)
+
+### 2. Dashboard
+
+![FactoryFlow Dashboard](screenshots/dashboard.png)
+
+### 3. Master Data Management
+
+![Master Data Management](screenshots/master_data.png)
+
+### 4. Inventory Management
+
+![Inventory Management](screenshots/inventory.png)
+
+### 5. Production Management
+
+![Production Management](screenshots/production.png)
+
+### 6. Sales Order Management
+
+![Sales Order Management](screenshots/sales_orders.png)
+
+### 7. GST Invoicing
+
+![GST Invoicing](screenshots/invoicing.png)
+
+### 8. Audit Reports and Analytics
+
+![Audit Reports](screenshots/reports.png)
+
+---
+
 ## ✨ Features and Modules
 
-### 1. User Authentication and Access Control
+### 1. 🔐 User Authentication and Access Control
+
 - Secure user login.
 - Password hashing using Argon2.
 - Initial administrator account setup.
 - Role-based access control.
 - User account management.
 
-### 2. Master Data Management
+### 2. 📦 Master Data Management
+
 - Customer registration.
 - Supplier registration.
 - Inventory item management.
 - Finished product registration.
 - GST and HSN information management.
 
-### 3. Bill of Materials (BOM) Management
+### 3. 📋 Bill of Materials (BOM) Management
+
 - Create product-specific BOMs.
 - Define raw material requirements.
 - Specify packaging material requirements.
 - Manage expected production batch yields.
 - View registered BOM recipes.
 
-### 4. Inventory and Purchase Management
+### 4. 📊 Inventory and Purchase Management
+
 - Record opening inventory.
 - Maintain stock movement records.
 - Record supplier purchases.
@@ -62,7 +121,8 @@ FactoryFlow provides a centralized application to manage the complete order-to-a
 - View stock movement ledger.
 - Monitor inventory availability.
 
-### 5. Production Management
+### 5. 🏭 Production Management
+
 - Select active BOMs.
 - Plan production batches.
 - Record actual material consumption.
@@ -71,7 +131,8 @@ FactoryFlow provides a centralized application to manage the complete order-to-a
 - Record cartons used.
 - Review production history.
 
-### 6. Sales Order Management
+### 6. 🛒 Sales Order Management
+
 - Create customer sales orders.
 - Add multiple products to an order.
 - Calculate order values.
@@ -79,7 +140,8 @@ FactoryFlow provides a centralized application to manage the complete order-to-a
 - Approve or reject sales orders.
 - Maintain order history.
 
-### 7. GST Invoicing and Billing
+### 7. 🧾 GST Invoicing and Billing
+
 - Generate invoices from approved sales orders.
 - Generate financial-year-based invoice numbers.
 - Calculate taxable values.
@@ -88,7 +150,8 @@ FactoryFlow provides a centralized application to manage the complete order-to-a
 - Maintain invoice registers.
 - View invoice details.
 
-### 8. Dispatch and Delivery Management
+### 8. 🚚 Dispatch and Delivery Management
+
 - Create dispatch records.
 - Record product-wise dispatch quantities.
 - Maintain vehicle and transporter details.
@@ -97,7 +160,8 @@ FactoryFlow provides a centralized application to manage the complete order-to-a
 - Deduct dispatched goods from inventory.
 - Track delivery completion.
 
-### 9. Payment and Receivables Management
+### 9. 💰 Payment and Receivables Management
+
 - Record customer payments.
 - Support cash, UPI, cheque and bank transfer.
 - Allocate payments against invoices.
@@ -105,7 +169,8 @@ FactoryFlow provides a centralized application to manage the complete order-to-a
 - Monitor outstanding balances.
 - Identify overdue invoices.
 
-### 10. Product Costing and Profitability
+### 10. 💹 Product Costing and Profitability
+
 - Maintain inventory cost rates.
 - Record production labour costs.
 - Record electricity costs.
@@ -113,7 +178,8 @@ FactoryFlow provides a centralized application to manage the complete order-to-a
 - Calculate production costs.
 - Review product profitability.
 
-### 11. Audit Reports and Management Analytics
+### 11. 📈 Audit Reports and Management Analytics
+
 - Sales reports.
 - Daily and monthly sales summaries.
 - Purchase reports.
@@ -139,8 +205,8 @@ FactoryFlow provides a centralized application to manage the complete order-to-a
 | Pandas | Data processing and reporting |
 | Plotly | Data visualization |
 | Argon2 | Password hashing |
-| ReportLab | PDF generation support |
 | OpenPyXL | Excel report handling |
+| ReportLab | PDF generation library |
 | Pytest | Testing framework |
 
 ---
@@ -160,6 +226,16 @@ NIT_CDI_Order_Audit_System/
 ├── requirements.txt
 │
 ├── README.md
+│
+├── screenshots/
+│   ├── login.png
+│   ├── dashboard.png
+│   ├── master_data.png
+│   ├── inventory.png
+│   ├── production.png
+│   ├── sales_orders.png
+│   ├── invoicing.png
+│   └── reports.png
 │
 ├── data/
 │
@@ -195,7 +271,7 @@ Install the following:
 
 - Python 3.10 or later.
 - Visual Studio Code (recommended).
-- Git (optional, for version control).
+- Git (for cloning the repository).
 
 ### Step 1: Clone the Repository
 
@@ -288,40 +364,40 @@ pip install -r requirements.txt
 FactoryFlow follows an integrated manufacturing and order-processing workflow.
 
 ```text
-Customer and Supplier Registration
-               |
-               v
-       Product Registration
-               |
-               v
-      BOM Configuration
-               |
-               v
-    Opening Stock and Purchases
-               |
-               v
-     Production Management
-               |
-               v
-       Sales Order Creation
-               |
-               v
-       Sales Order Approval
-               |
-               v
-        GST Invoice Creation
-               |
-               v
-        Product Dispatch
-               |
-               v
-       Customer Payment
-               |
-               v
-       Production Costing
-               |
-               v
-     Audit and Business Reports
+       Customer and Supplier Registration
+                      |
+                      v
+              Product Registration
+                      |
+                      v
+             BOM Configuration
+                      |
+                      v
+          Opening Stock and Purchases
+                      |
+                      v
+             Production Management
+                      |
+                      v
+             Sales Order Creation
+                      |
+                      v
+             Sales Order Approval
+                      |
+                      v
+              GST Invoice Creation
+                      |
+                      v
+               Product Dispatch
+                      |
+                      v
+              Customer Payment
+                      |
+                      v
+              Production Costing
+                      |
+                      v
+          Audit and Business Reports
 ```
 
 ---
@@ -330,7 +406,7 @@ Customer and Supplier Registration
 
 FactoryFlow supports five user roles.
 
-| Role | Responsibilities |
+| Role | Main Responsibility |
 |---|---|
 | Admin | Overall application administration and business operations |
 | Salesman | Customer sales order creation |
@@ -395,19 +471,20 @@ The database contains operational information such as:
 
 ## 🚀 Deployment
 
-FactoryFlow is developed as a Streamlit application and can be deployed using Streamlit Community Cloud.
+FactoryFlow is deployed using Streamlit Community Cloud.
 
-Deployment platform:
+### Live Application
 
-https://share.streamlit.io/
+https://factoryflow-order-to-audit-system-begvsue7dgrvflbzv6erpl.streamlit.app/
 
-Select the GitHub repository, choose the `main` branch and specify:
+### Deployment Configuration
 
-```text
-Main file path: app.py
-```
-
-Install the dependencies using the repository's `requirements.txt`.
+| Setting | Value |
+|---|---|
+| Deployment Platform | Streamlit Community Cloud |
+| Repository | nithyasri11-dev/FactoryFlow-Order-to-Audit-System |
+| Branch | main |
+| Main File | app.py |
 
 **Deployment consideration:** The current application uses a local SQLite database. Local file storage on hosted platforms may not provide reliable long-term persistence. A persistent external database is recommended before using the application for real business operations.
 
@@ -417,7 +494,7 @@ Install the dependencies using the repository's `requirements.txt`.
 
 - User passwords are hashed rather than stored as plain text.
 - Application access is controlled by user roles.
-- Database operations use parameterized SQL queries.
+- Database operations should use parameterized SQL queries.
 - Database files and configuration secrets should not be committed to GitHub.
 - The application is intended as an educational prototype and requires further security validation before production use.
 
@@ -449,8 +526,13 @@ Potential future improvements include:
 
 **Project Type:** Web-Based Business Management Application
 
-**Repository:**  
+**GitHub Repository:**
+
 https://github.com/nithyasri11-dev/FactoryFlow-Order-to-Audit-System
+
+**Live Application:**
+
+https://factoryflow-order-to-audit-system-begvsue7dgrvflbzv6erpl.streamlit.app/
 
 ---
 
@@ -458,7 +540,7 @@ https://github.com/nithyasri11-dev/FactoryFlow-Order-to-Audit-System
 
 This project is developed for educational and demonstration purposes.
 
-A formal open-source license can be added if the project is intended for public reuse.
+No formal open-source license has currently been specified.
 
 ---
 
