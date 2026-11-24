@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Database files
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Generated reports
+exports/*.xlsx
+exports/*.pdf
+exports/*.csv
+
+# Test cache
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
